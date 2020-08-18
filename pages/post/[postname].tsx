@@ -2,9 +2,37 @@ import Link from "next/link";
 import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
 
-import Layout from "../../components/Layout";
+import Layout from "@components/Layout";
+import { Post } from "@pages/index";
 
-export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
+type PostProps = {
+  siteTitle: string;
+} & Pick<Post, "markdownBody" | "frontmatter">;
+
+// type ParsedPost = {
+//   readonly content: string;
+//   readonly data: {
+//     name: string;
+//     date: string;
+//     category: string;
+//     thumbnail: string;
+//     website: string;
+//     giftcard: string;
+//     number: string;
+//     pickup: boolean;
+//     delivery: boolean;
+//     masks: boolean;
+//     masked: boolean;
+//   };
+//   readonly isEmpty: boolean;
+//   readonly excerpt: string;
+// };
+
+export default function BlogPost({
+  siteTitle,
+  frontmatter,
+  markdownBody,
+}: PostProps) {
   if (!frontmatter) return <></>;
 
   return (

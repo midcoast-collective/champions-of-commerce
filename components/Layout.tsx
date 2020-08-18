@@ -1,12 +1,21 @@
 import Head from "next/head";
-import Header from "./Header";
+import Header from "@components/Header";
 
-export default function Layout({ children, pageTitle, ...props }) {
+type LayoutProps = {
+  children: React.ReactNode;
+  pageTitle: string;
+};
+
+const Layout = ({
+  children,
+  pageTitle = "Page Title",
+}: Readonly<LayoutProps>) => {
   return (
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{pageTitle}</title>
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Head>
 
       <section className="layout">
@@ -17,4 +26,6 @@ export default function Layout({ children, pageTitle, ...props }) {
       <footer>&copy {new Date().getFullYear()} Champions of Commerce</footer>
     </>
   );
-}
+};
+
+export default Layout;

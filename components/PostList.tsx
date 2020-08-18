@@ -1,7 +1,11 @@
 import Link from "next/link";
 
-export default function PostList({ posts }) {
-  if (posts === "undefined") return null;
+type PostListProps = {
+  posts?: any[];
+};
+
+const PostList = ({ posts = [] }: Readonly<PostListProps>) => {
+  if (posts.length < 1) return null;
 
   return (
     <div>
@@ -20,4 +24,6 @@ export default function PostList({ posts }) {
       </ul>
     </div>
   );
-}
+};
+
+export default PostList;

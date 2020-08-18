@@ -3,8 +3,8 @@ backend:
   branch: master
 media_folder: "public/images/uploads"
 site_url: "https://championsofcommerce.com"
-# logo_url: https://your-site.com/images/logo.svg
-# locale: "en"
+logo_url: "https://your-site.com/images/logo.svg"
+locale: "en"
 show_preview_links: true
 view_filters:
   - label: "Faves"
@@ -33,16 +33,17 @@ collections:
           widget: "select",
           options: ["faves", "craves", "retail", "service"],
         }
+      - { label: "Featured Image", name: "thumbnail", widget: "image" }
       - { label: "Website", name: "website", widget: "string", required: false }
       - {
           label: "Gift Card Link",
-          name: "giftCardLink",
+          name: "giftcard",
           widget: "string",
           required: false,
         }
       - {
           label: "Gift Card Number",
-          name: "giftCardNumber",
+          name: "number",
           widget: "string",
           required: false,
         }
@@ -60,15 +61,14 @@ collections:
         }
       - {
           label: "Masks Are Required",
-          name: "masksRequired",
+          name: "masks",
           widget: "boolean",
           default: true,
         }
       - {
           label: "Employees Wear Masks",
-          name: "employeesMasked",
+          name: "masked",
           widget: "boolean",
           default: true,
         }
-      - { label: "Featured Image", name: "thumbnail", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }

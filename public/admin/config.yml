@@ -15,6 +15,7 @@ collections:
     create: true
     slug: "{{slug}}"
     # preview: false
+    preview_path: ""
     sortableFields: ["name"]
     view_filters:
       - label: "Faves"

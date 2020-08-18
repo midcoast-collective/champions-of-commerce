@@ -4,8 +4,9 @@ backend:
 media_folder: "public/images/uploads"
 site_url: "https://championsofcommerce.com"
 logo_url: "https://your-site.com/images/logo.svg"
-locale: "en"
+# locale: "en"
 show_preview_links: true
+publish_mode: editorial_workflow
 collections:
   - name: post
     label: "Post"
@@ -13,6 +14,7 @@ collections:
     folder: "posts"
     create: true
     slug: "{{slug}}"
+    # preview: false
     sortableFields: ["name"]
     view_filters:
       - label: "Faves"

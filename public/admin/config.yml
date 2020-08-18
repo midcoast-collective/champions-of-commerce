@@ -6,25 +6,27 @@ site_url: "https://championsofcommerce.com"
 logo_url: "https://your-site.com/images/logo.svg"
 locale: "en"
 show_preview_links: true
-view_filters:
-  - label: "Faves"
-    field: "category"
-    pattern: "faves"
-  - label: "Craves"
-    field: "category"
-    pattern: "craves"
-  - label: "Retail"
-    field: "category"
-    pattern: "retail"
-  - label: "Services"
-    field: "category"
-    pattern: "services"
 collections:
-  - name: "businesses"
-    label: "Businesses"
+  - name: post
+    label: "Post"
+    identifier_field: name
     folder: "posts"
     create: true
     slug: "{{slug}}"
+    sortableFields: ["name"]
+    view_filters:
+      - label: "Faves"
+        field: "category"
+        pattern: "faves"
+      - label: "Craves"
+        field: "category"
+        pattern: "craves"
+      - label: "Retail"
+        field: "category"
+        pattern: "retail"
+      - label: "Services"
+        field: "category"
+        pattern: "services"
     fields:
       - { label: "Name", name: "name", widget: "string" }
       - {

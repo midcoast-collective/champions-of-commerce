@@ -23,7 +23,7 @@ const Layout = ({
         <div className="content">{children}</div>
       </section>
 
-      <footer>&copy {new Date().getFullYear()} Champions of Commerce</footer>
+      <footer>&copy; {new Date().getFullYear()} Champions of Commerce</footer>
     </>
   );
 };

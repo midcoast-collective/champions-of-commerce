@@ -1,27 +1,54 @@
-import Link from "next/link";
+import { useState } from "react";
+
+import { Post as PostType } from "@pages/index";
+import Post from "@components/Post";
 
 type PostListProps = {
-  posts?: any[];
+  posts?: PostType.Processed[];
 };
 
 const PostList = ({ posts = [] }: Readonly<PostListProps>) => {
-  if (posts.length < 1) return null;
+  const [filter, setFilter] = useState("faves");
+
+  const filteredAndSortedPosts = posts
+    .filter((post) => post.category === filter)
+    .sort((a, b) => a["name"].localeCompare(b["name"]));
+
+  if (posts.length < 1) return <p>Oops, there is nothing to see here...</p>;
 
   return (
-    <div>
-      {!posts && <div>No posts!</div>}
-      <ul>
-        {posts &&
-          posts.map((post) => {
-            return (
-              <li key={post.slug}>
-                <Link href={{ pathname: `/post/${post.slug}` }}>
-                  <a>{post.frontmatter.title}</a>
-                </Link>
-              </li>
-            );
-          })}
-      </ul>
+    <div className="wrap">
+      <div className="tabs">
+        <button
+          className={filter === "faves" ? "tab active" : "tab"}
+          onClick={() => setFilter("faves")}
+        >
+          Faves
+        </button>
+        <button
+          className={filter === "craves" ? "tab active" : "tab"}
+          onClick={() => setFilter("craves")}
+        >
+          Craves
+        </button>
+        <button
+          className={filter === "retail" ? "tab active" : "tab"}
+          onClick={() => setFilter("retail")}
+        >
+          Retail
+        </button>
+        <button
+          className={filter === "services" ? "tab active" : "tab"}
+          onClick={() => setFilter("services")}
+        >
+          Services
+        </button>
+      </div>
+
+      <div className="list">
+        {filteredAndSortedPosts.length > 0 &&
+          filteredAndSortedPosts.map((post) => <Post post={post} />)}
+      </div>
     </div>
   );
 };

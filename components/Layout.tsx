@@ -3,27 +3,59 @@ import Header from "@components/Header";
 
 type LayoutProps = {
   children: React.ReactNode;
-  pageTitle: string;
+  title?: string;
+  description?: string;
+  url?: string;
 };
 
 const Layout = ({
   children,
-  pageTitle = "Page Title",
+  title = "Page Title",
+  description = "Page Description",
+  url = "https://nextjs.org",
 }: Readonly<LayoutProps>) => {
   return (
     <>
       <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>{pageTitle}</title>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui"
+        />
+
+        <title>{title}</title>
+
+        <meta name="description" content={description} />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={url} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:image" content={url + "/images/og-image.jpg"} />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
+        <meta name="twitter:image" content={url + "/images/og-image.jpg"} />
+
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Head>
 
       <section className="layout">
-        <Header />
-        <div className="content">{children}</div>
+        <Header url={url} />
+        {children}
       </section>
 
-      <footer>&copy; {new Date().getFullYear()} Champions of Commerce</footer>
+      <footer>
+        <div className="wrap">
+          &copy;{new Date().getFullYear()} A collaboration between{" "}
+          <a href="https://saintjoseph.com">
+            The St. Joseph Chamber of Commerce
+          </a>{" "}
+          & <a href="https://midcoast.io">Midcoast Collective</a>. All rights
+          reserved.
+        </div>
+      </footer>
     </>
   );
 };

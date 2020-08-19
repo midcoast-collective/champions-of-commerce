@@ -10,19 +10,37 @@ declare global {
   }
 }
 
-export interface Post {
-  frontmatter: { [key: string]: any };
-  markdownBody: string;
-  slug: string;
+export namespace Post {
+  export type PreProcessed = {
+    [key: string]: string | boolean;
+    content: string;
+    slug: string;
+  };
+
+  export type Processed = {
+    name: string;
+    category: string;
+    thumbnail: string;
+    website: string;
+    giftcard?: string;
+    number?: string;
+    pickup: boolean;
+    delivery: boolean;
+    masks: boolean;
+    masked: boolean;
+    content: string;
+    slug: string;
+  };
 }
 
-interface IndexProps {
-  posts: Post[];
+type IndexProps = {
+  posts: Post.Processed[];
   title: string;
   description: string;
-}
+  url: string;
+};
 
-const Index = ({ posts, title, description }: Readonly<IndexProps>) => {
+const Index = ({ posts, title, description, url }: Readonly<IndexProps>) => {
   if (typeof window !== "undefined" && window.netlifyIdentity) {
     window.netlifyIdentity.on("init", (user: unknown) => {
       if (!user) {
@@ -34,9 +52,7 @@ const Index = ({ posts, title, description }: Readonly<IndexProps>) => {
   }
 
   return (
-    <Layout pageTitle={title}>
-      <h1 className="title">Champions of Commerce</h1>
-      <p className="description">{description}</p>
+    <Layout title={title} description={description} url={url}>
       <main>
         <PostList posts={posts} />
       </main>
@@ -48,13 +64,10 @@ export default Index;
 
 export const getStaticProps: GetStaticProps = async () => {
   const configData = await import(`../siteconfig.json`);
-  console.log({ configData });
 
   const extractPosts = (context: __WebpackModuleApi.RequireContext) => {
     const keys: string[] = context.keys();
     const values: any = keys.map(context);
-
-    console.log(JSON.stringify(values));
 
     const data = keys.map((key, index) => {
       const slug: string = key.replace(/^.*[\\\/]/, "").slice(0, -3);
@@ -64,8 +77,8 @@ export const getStaticProps: GetStaticProps = async () => {
       );
 
       return {
-        frontmatter: document?.data,
-        markdownBody: document?.content,
+        ...document?.data,
+        content: document?.content,
         slug,
       };
     });
@@ -74,14 +87,14 @@ export const getStaticProps: GetStaticProps = async () => {
   };
 
   const postContext = require.context("../posts", true, /\.md$/);
-
-  const posts: Post[] = extractPosts(postContext);
+  const posts: Post.PreProcessed[] = extractPosts(postContext);
 
   return {
     props: {
       posts,
       title: configData.title,
       description: configData.description,
+      url: configData.url,
     },
   };
 };

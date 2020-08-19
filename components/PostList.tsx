@@ -47,7 +47,9 @@ const PostList = ({ posts = [] }: Readonly<PostListProps>) => {
 
       <div className="list">
         {filteredAndSortedPosts.length > 0 &&
-          filteredAndSortedPosts.map((post) => <Post post={post} />)}
+          filteredAndSortedPosts.map((post) => (
+            <Post post={post} key={post.slug} />
+          ))}
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ type PostProps = {
 
 const Post = ({ post }: Readonly<PostProps>) => {
   return (
-    <div className="post" key={post.slug}>
+    <div className="post">
       <div className="post-image">
         <img alt={post.name} src={post.thumbnail} />
       </div>

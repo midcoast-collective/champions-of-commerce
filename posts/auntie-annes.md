@@ -1,7 +1,7 @@
 ---
 name: Auntie Anne's
 category: craves
-thumbnail: /images/uploads/auntie-annes.jpg
+thumbnail: auntie-annes.jpg
 website: https://www.auntieannes.com/
 giftcard: https://www.auntieannes.com/gift-cards
 pickup: true

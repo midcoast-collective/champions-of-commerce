@@ -1,7 +1,7 @@
 ---
 name: Adams Bar & Grill
 category: faves
-thumbnail: /images/uploads/adams-bar-and-grill.jpg
+thumbnail: adams-bar-and-grill.jpg
 website: https://www.facebook.com/Adams-Bar-Grill-156500586392/
 number: 816-232-5513
 pickup: true

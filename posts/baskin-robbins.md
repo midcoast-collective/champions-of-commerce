@@ -1,7 +1,7 @@
 ---
 name: Baskin Robbins
 category: craves
-thumbnail: /images/uploads/baskin-robbins.jpg
+thumbnail: baskin-robbins.jpg
 website: https://www.baskinrobbins.com/
 giftcard: https://www.baskinrobbins.com/en/gift-cards
 pickup: true

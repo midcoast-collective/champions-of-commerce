@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: master
 media_folder: "public/images/uploads"
-public_folder: "/images/uploads"
+public_folder: ""
 site_url: "https://championsofcommerce.com"
 logo_url: "https://championsofcommerce.com/images/og-image.png"
 # locale: "en"

@@ -1,6 +1,6 @@
 ---
 name: 3 Wishes Bakery
-thumbnail: /images/uploads/3-wishes-bakery.jpg
+thumbnail: 3-wishes-bakery.jpg
 giftcard: ""
 number: 816-752-2126
 masks: true

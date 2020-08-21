@@ -23,6 +23,8 @@
     "@types/react-youtube-embed": "^1.0.1",
     "@types/webpack-env": "^1.15.2",
     "frontmatter-markdown-loader": "^3.6.0",
+    "next-compose-plugins": "^2.2.0",
+    "next-optimized-images": "^3.0.0-canary.10",
     "typescript": "^3.9.7"
   }
 }

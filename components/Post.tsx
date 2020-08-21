@@ -1,3 +1,5 @@
+import Img from "react-optimized-image";
+
 import * as Icon from "@components/Icon";
 import { Post as PostType } from "@pages/index";
 
@@ -9,7 +11,11 @@ const Post = ({ post }: Readonly<PostProps>) => {
   return (
     <div className="post">
       <div className="post-image">
-        <img alt={post.name} src={post.thumbnail} />
+        <Img
+          alt={post.name}
+          loading="lazy"
+          src={require(`../public/images/uploads/${post.thumbnail}`)}
+        />
       </div>
 
       <div className="post-content">

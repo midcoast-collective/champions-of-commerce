@@ -1,7 +1,7 @@
 ---
 name: Arby's
 category: craves
-thumbnail: /images/uploads/arbys.jpg
+thumbnail: arbys.jpg
 website: https://arbys.com/
 giftcard: https://arbys.com/gift-cards
 pickup: true

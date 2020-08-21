@@ -21,6 +21,7 @@ const Header = ({ url = "https://nextjs.org" }: Readonly<HeaderProps>) => {
             <div className="share">
               <span>Share This:</span>
               <a
+                className="share-link"
                 href={`https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -28,6 +29,7 @@ const Header = ({ url = "https://nextjs.org" }: Readonly<HeaderProps>) => {
                 <Icon.Facebook />
               </a>
               <a
+                className="share-link"
                 href={`https://twitter.com/intent/tweet?text=${encodedUrl}`}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -45,9 +47,24 @@ const Header = ({ url = "https://nextjs.org" }: Readonly<HeaderProps>) => {
               Ditch Amazon and decide local.
             </p>
 
-            <YouTubeEmbed id="teyjRUabA3Q" />
+            <YouTubeEmbed id="AogN7XQruZY" />
           </div>
         </div>
+
+        <svg
+          className="wave"
+          viewBox="0 0 500 150"
+          preserveAspectRatio="none"
+          style={{
+            height: "calc(var(--rhythm) * 8)",
+            width: "100%",
+          }}
+        >
+          <path
+            d="M-0.57,61.67 C181.15,151.47 310.38,-0.50 500.00,84.37 L500.00,150.00 L0.00,150.00 Z"
+            style={{ stroke: "none", fill: "var(--color-white)" }}
+          ></path>
+        </svg>
       </div>
     </header>
   );

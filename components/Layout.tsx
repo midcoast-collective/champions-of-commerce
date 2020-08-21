@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Header from "@components/Header";
+import * as Icon from "@components/Icon";
 
 type LayoutProps = {
   children: React.ReactNode;
@@ -48,6 +49,9 @@ const Layout = ({
 
       <footer>
         <div className="wrap">
+          <div className="branding">
+            <Icon.Branding />
+          </div>
           &copy;{new Date().getFullYear()} A collaboration between{" "}
           <a href="https://saintjoseph.com">
             The St. Joseph Chamber of Commerce

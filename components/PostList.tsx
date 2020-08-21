@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import { Post as PostType } from "@pages/index";
 import Post from "@components/Post";
+import * as Icon from "@components/Icon";
 
 type PostListProps = {
   posts?: PostType.Processed[];
@@ -18,6 +19,21 @@ const PostList = ({ posts = [] }: Readonly<PostListProps>) => {
 
   return (
     <div className="wrap">
+      <div className="post-options">
+        <div>
+          <Icon.Delivery />
+          <span>- Delivery</span>
+        </div>
+        <div>
+          <Icon.Takeout />
+          <span>- Takeout</span>
+        </div>
+        <div>
+          <Icon.Mask />
+          <span>- Masks</span>
+        </div>
+      </div>
+
       <div className="tabs">
         <button
           className={filter === "faves" ? "tab active" : "tab"}

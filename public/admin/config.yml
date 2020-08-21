@@ -9,13 +9,14 @@ logo_url: "https://championsofcommerce.com/images/og-image.png"
 show_preview_links: true
 # publish_mode: editorial_workflow
 collections:
-  - name: post
+  - name: "post"
     label: "Post"
+    description: "Add and edit business entries."
     identifier_field: name
     folder: "posts"
     create: true
     slug: "{{slug}}"
-    # preview: false
+    preview: true
     preview_path: ""
     sortableFields: ["name"]
     view_filters:

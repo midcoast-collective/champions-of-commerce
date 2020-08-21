@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "gray-matter": "^4.0.2",
-    "netlify-cms": "^2.10.55",
     "next": "9.5.2",
     "raw-loader": "^4.0.1",
     "react": "16.13.1",

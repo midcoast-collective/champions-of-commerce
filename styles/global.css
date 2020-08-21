@@ -56,6 +56,7 @@ a {
   background-color: var(--color-primary);
   color: var(--color-white);
   padding: var(--rhythm) 0 0;
+  margin-bottom: -1px;
 }
 
 .crown {

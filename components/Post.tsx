@@ -16,8 +16,9 @@ const Post = ({ post }: Readonly<PostProps>) => {
       <div className="post-image" style={{ opacity: imageHasLoaded ? 1 : 0 }}>
         <Img
           alt={post.name}
-          src={require(`../public/images/uploads/${post.thumbnail}`)}
           onLoad={() => setImageHasLoaded(true)}
+          loading="lazy"
+          src={require(`../public/images/uploads/${post.thumbnail}`)}
         />
       </div>
 

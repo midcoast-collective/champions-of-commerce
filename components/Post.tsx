@@ -13,7 +13,6 @@ const Post = ({ post }: Readonly<PostProps>) => {
       <div className="post-image">
         <Img
           alt={post.name}
-          loading="lazy"
           src={require(`../public/images/uploads/${post.thumbnail}`)}
         />
       </div>

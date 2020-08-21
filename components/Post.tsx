@@ -17,7 +17,7 @@ const Post = ({ post }: Readonly<PostProps>) => {
         <Img
           alt={post.name}
           onLoad={() => setImageHasLoaded(true)}
-          loading="lazy"
+          // loading="lazy"
           src={require(`../public/images/uploads/${post.thumbnail}`)}
         />
       </div>

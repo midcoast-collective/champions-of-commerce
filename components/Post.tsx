@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Img from "react-optimized-image";
 
 import * as Icon from "@components/Icon";
@@ -8,12 +9,15 @@ type PostProps = {
 };
 
 const Post = ({ post }: Readonly<PostProps>) => {
+  const [imageHasLoaded, setImageHasLoaded] = useState(false);
+
   return (
     <div className="post">
-      <div className="post-image">
+      <div className="post-image" style={{ opacity: imageHasLoaded ? 1 : 0 }}>
         <Img
           alt={post.name}
           src={require(`../public/images/uploads/${post.thumbnail}`)}
+          onLoad={() => setImageHasLoaded(true)}
         />
       </div>
 

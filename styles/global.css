@@ -202,6 +202,7 @@ footer {
   overflow: hidden;
   position: relative;
   width: 100%;
+  transition: opacity 300ms linear;
 }
 
 .post-image > * {

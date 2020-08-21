@@ -19,7 +19,7 @@ const PostList = ({ posts = [] }: Readonly<PostListProps>) => {
 
   return (
     <div className="wrap">
-      <div className="post-options">
+      <div className="post-options centered">
         <div>
           <Icon.Delivery />
           <span>- Delivery</span>

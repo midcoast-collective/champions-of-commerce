@@ -1,7 +1,7 @@
 ---
 name: 503 Winery
 category: faves
-thumbnail: 503 Winery.jpg
+thumbnail: 503-Winery.jpg
 website: https://www.facebook.com/503winery/
 number: (816) 262-3310
 pickup: true

@@ -1,5 +1,4 @@
-import { useState } from "react";
-import Img from "react-optimized-image";
+import React from "react";
 
 import * as Icon from "@components/Icon";
 import { Post as PostType } from "@pages/index";
@@ -9,18 +8,37 @@ type PostProps = {
 };
 
 const Post = ({ post }: Readonly<PostProps>) => {
-  // const [imageHasLoaded, setImageHasLoaded] = useState(false);
+  const [imageIsLoaded, setImageIsLoaded] = React.useState(false);
+  const image = React.useRef(null);
+
+  React.useEffect(() => {
+    // @ts-ignore
+    if (image?.current?.complete) {
+      setImageIsLoaded(true);
+    }
+  }, [post]);
 
   return (
     <div className="post">
       <div className="post-image">
-        {/* <div className="post-image" style={{ opacity: imageHasLoaded ? 1 : 0 }}> */}
-        <Img
-          alt={post.name}
-          // onLoad={() => setImageHasLoaded(true)}
-          // loading="lazy"
-          src={require(`../public/images/uploads/${post.thumbnail}`)}
-        />
+        <picture>
+          {!imageIsLoaded && (
+            <source
+              srcSet={require(`../public/images/uploads/${post.thumbnail}?lqip`)}
+              type="image/jpeg"
+            />
+          )}
+          <source
+            srcSet={require(`../public/images/uploads/${post.thumbnail}?webp`)}
+            type="image/webp"
+          />
+          <img
+            className={!imageIsLoaded ? "blur" : ""}
+            src={require(`../public/images/uploads/${post.thumbnail}`)}
+            onLoad={() => setImageIsLoaded(true)}
+            ref={image}
+          />
+        </picture>
       </div>
 
       <div className="post-content">

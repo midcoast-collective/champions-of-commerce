@@ -1,12 +1,12 @@
 ---
-name: Butchart Flowers
+name: CBD American Shaman
 category: retail
-thumbnail: butchart-flowers.jpg
-website: https://www.butchartflowers.com/
-number: 816-279-2735
-pickup: false
+thumbnail: cbd-american-shaman.jpg
+website: https://cbdamericanshaman.com/
+number: 816-390-8707
+pickup: true
 delivery: true
-masks: true
-masked: true
+masks: false
+masked: false
 ---
-Open, walk-ins welcome/curbside pick-up and no contact delivery available, 279-2735
+139 N Belt Hwy suite S, 390-8707 — Open, if you prefer curbside pickup call the store, delivery also available

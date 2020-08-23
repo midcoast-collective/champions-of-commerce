@@ -54,8 +54,8 @@ const PostList = ({ posts = [] }: Readonly<PostListProps>) => {
           Retail
         </button>
         <button
-          className={filter === "services" ? "tab active" : "tab"}
-          onClick={() => setFilter("services")}
+          className={filter === "service" ? "tab active" : "tab"}
+          onClick={() => setFilter("service")}
         >
           Services
         </button>

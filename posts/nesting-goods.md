@@ -5,8 +5,8 @@ thumbnail: nesting-goods.jpg
 website: https://www.nestinggoods.com/
 giftcard: https://squareup.com/gift/79NEFWQR5NVSR/order
 pickup: false
-delivery: false
+delivery: true
 masks: true
 masked: true
 ---
-[615 Felix St., 816-617-4473, nestinggoods@gmail.com. Open 10 a.m. to 6 p.m., Tuesday-Saturday, masks required or shop directly from social media or nestinggoods.com.](https://www.nestinggoods.com/)
+[615 Felix St., open 10 a.m. to 6 p.m., Tuesday-Saturday, locally-made artisan items, home decor and gifts. Shop in person with a mask or online for pickup or delivery,](https://www.nestinggoods.com/)

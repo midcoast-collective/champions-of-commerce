@@ -1,7 +1,7 @@
 ---
 name: Marco Polo
 category: faves
-thumbnail: mcdonalds.jpg
+thumbnail: marco-polo.jpg
 website: http://www.marcopoloeats.com/
 number: 816-259-5221
 pickup: true

@@ -8,35 +8,42 @@ type PostProps = {
 };
 
 const Post = ({ post }: Readonly<PostProps>) => {
-  const [imageIsLoaded, setImageIsLoaded] = React.useState(false);
-  const image = React.useRef(null);
+  // const [imageIsLoaded, setImageIsLoaded] = React.useState(false);
+  // const image = React.useRef(null);
 
-  React.useEffect(() => {
-    // @ts-ignore
-    if (image?.current?.complete) {
-      setImageIsLoaded(true);
-    }
-  }, [post]);
+  // React.useEffect(() => {
+  //   // @ts-ignore
+  //   if (image?.current?.complete) {
+  //     setImageIsLoaded(true);
+  //   }
+  // }, [post]);
+
+  const placeholder = require(`../public/images/uploads/${post.thumbnail}?placeholder=true&placeholderSize=40`)
+    .placeholder;
 
   return (
     <div className="post">
-      <div className="post-image">
+      <div
+        className="post-image"
+        style={{
+          backgroundImage: `url(${placeholder})`,
+          backgroundSize: "cover",
+        }}
+      >
         <picture>
-          {!imageIsLoaded && (
-            <source
-              srcSet={require(`../public/images/uploads/${post.thumbnail}?lqip`)}
-              type="image/jpeg"
-            />
-          )}
           <source
-            srcSet={require(`../public/images/uploads/${post.thumbnail}?webp`)}
+            srcSet={
+              require(`../public/images/uploads/${post.thumbnail}?size=400&format=webp`)
+                .srcSet
+            }
             type="image/webp"
           />
           <img
-            className={!imageIsLoaded ? "blur" : ""}
-            src={require(`../public/images/uploads/${post.thumbnail}`)}
-            onLoad={() => setImageIsLoaded(true)}
-            ref={image}
+            src={
+              require(`../public/images/uploads/${post.thumbnail}?size=400&format=jpg`)
+                .src
+            }
+            loading="lazy"
           />
         </picture>
       </div>

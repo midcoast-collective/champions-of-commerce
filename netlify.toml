@@ -4,13 +4,3 @@
 
 [[plugins]]
   package = "netlify-plugin-cache-nextjs"
-
-[[redirects]]
-  from = "https://couchandclick.com"
-  to = "https://championsofcommerce.com"
-  status = 301
-
-[[redirects]]
-  from = "https://www.couchandclick.com"
-  to = "https://championsofcommerce.com"
-  status = 301

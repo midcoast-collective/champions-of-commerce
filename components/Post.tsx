@@ -39,6 +39,7 @@ const Post = ({ post }: Readonly<PostProps>) => {
             type="image/webp"
           />
           <img
+            alt={post.name}
             src={
               require(`../public/images/uploads/${post.thumbnail}?size=400&format=jpg`)
                 .src

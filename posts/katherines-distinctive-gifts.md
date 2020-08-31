@@ -9,4 +9,4 @@ delivery: false
 masks: true
 masked: true
 ---
-1107 N. 26th St., 816-279-0641– Open 10 a.m. to 5 p.m., M-Friday and 10 a.m. to 3 p.m. on Saturday. Online, Instagram, Facebook, Email shopping also available
+1107 N. 26th St., 816-279-0641– Open 10 a.m. to 5 p.m., Monday, Wednesday and Friday. Closed, Tuesday, Thursday and Saturday. Online, Instagram, Facebook, Email shopping also available.

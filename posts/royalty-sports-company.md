@@ -8,4 +8,4 @@ delivery: false
 masks: false
 masked: false
 ---
-Full schedule of classes has been launched. Check the website for more information.
+Cheer, tumbling and parkour classes with open enrollment in the recreational program. Free trial class. Check out the schedule on its website.

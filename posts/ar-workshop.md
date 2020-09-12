@@ -2,7 +2,7 @@
 name: AR Workshop
 category: retail
 thumbnail: ar-workshop.jpg
-website: https://www.arworkshop.com/event/?loc=stjoseph&ev=162174
+website: https://www.arworkshop.com/stjoseph/
 giftcard: https://www.arworkshop.com/event/?buygiftcard=1&loc=stjoseph
 pickup: false
 delivery: true

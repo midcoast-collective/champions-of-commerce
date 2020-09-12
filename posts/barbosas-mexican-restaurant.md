@@ -1,7 +1,7 @@
 ---
 name: Barbosa's Mexican Restaurant
 category: faves
-thumbnail: barbosas-mexican-restaurant.jpg
+thumbnail: barbosas.jpg
 website: https://www.barbosascastillo.com/
 number: 816-232-0221
 pickup: true

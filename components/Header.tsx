@@ -1,5 +1,5 @@
 import React from "react";
-import YouTubeEmbed from "react-youtube-embed";
+import YouTube from "react-youtube";
 
 import * as Icon from "@components/Icon";
 
@@ -9,6 +9,7 @@ type HeaderProps = {
 
 const Header = ({ url = "https://nextjs.org" }: Readonly<HeaderProps>) => {
   const encodedUrl = encodeURIComponent(url);
+  const [videoIsVisibile, setVideoIsVisible] = React.useState(false);
 
   return (
     <header>
@@ -48,7 +49,13 @@ const Header = ({ url = "https://nextjs.org" }: Readonly<HeaderProps>) => {
               Ditch Amazon and decide local.
             </p>
 
-            <YouTubeEmbed id="AogN7XQruZY" />
+            <div style={{ visibility: videoIsVisibile ? "visible" : "hidden" }}>
+              <YouTube
+                containerClassName="video-container"
+                videoId="AogN7XQruZY"
+                onReady={() => setVideoIsVisible(true)}
+              />
+            </div>
           </div>
         </div>
 

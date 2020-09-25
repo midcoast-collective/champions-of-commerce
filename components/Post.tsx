@@ -55,13 +55,15 @@ const Post = ({ post }: Readonly<PostProps>) => {
         <div className="post-options">
           {post.delivery ? <Icon.Delivery /> : null}
           {post.pickup ? <Icon.Takeout /> : null}
-          {post.masks ? <Icon.Mask /> : null}
+          {/* {post.masks ? <Icon.Mask /> : null} */}
+          <Icon.Mask />
         </div>
 
         <p>
           {post.content}
           <br />
           {post.masked ? <b>Employees wear masks.</b> : null}
+          <b>Employees wear masks.</b>
         </p>
 
         {post.giftcard || post.number || post.website ? (

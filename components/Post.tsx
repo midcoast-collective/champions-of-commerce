@@ -62,7 +62,7 @@ const Post = ({ post }: Readonly<PostProps>) => {
         <p>
           {post.content}
           <br />
-          {post.masked ? <b>Employees wear masks.</b> : null}
+          {/* {post.masked ? <b>Employees wear masks.</b> : null} */}
           <b>Employees wear masks.</b>
         </p>
 

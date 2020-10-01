@@ -1,7 +1,7 @@
 ---
 name: Ground Round
 category: faves
-thumbnail: ground-round.jpg
+thumbnail: ground-round-sj.jpg
 website: https://www.facebook.com/GroundRoundStJoseph/
 number: (816) 671-1906
 pickup: true

@@ -44,7 +44,7 @@ const Post = ({ post }: Readonly<PostProps>) => {
               require(`../public/images/uploads/${post.thumbnail}?size=400&format=jpg`)
                 .src
             }
-            loading="lazy"
+            loading="eager"
           />
         </picture>
       </div>

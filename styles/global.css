@@ -52,6 +52,17 @@ a {
   padding: 0 var(--rhythm);
 }
 
+.divert {
+  padding: var(--rhythm);
+  text-align: center;
+  color: var(--color-white);
+  background-color: var(--color-quaternary);
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: var(--font-weight-bold);
+}
+
 .header {
   background-color: var(--color-primary);
   color: var(--color-white);

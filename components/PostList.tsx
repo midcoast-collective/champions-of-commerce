@@ -29,10 +29,10 @@ const PostList = ({ posts = [] }: Readonly<PostListProps>) => {
           <Icon.Takeout />
           <span>- Takeout</span>
         </div>
-        <div>
+        {/* <div>
           <Icon.Mask />
           <span>- Masks</span>
-        </div>
+        </div> */}
       </div>
 
       <div className="tabs">

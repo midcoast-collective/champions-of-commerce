@@ -18,8 +18,8 @@ const Post = ({ post }: Readonly<PostProps>) => {
   //   }
   // }, [post]);
 
-  const placeholder = require(`../public/images/uploads/${post.thumbnail}?placeholder=true&placeholderSize=40`)
-    .placeholder;
+  const placeholder =
+    require(`../public/images/uploads/${post.thumbnail}?placeholder=true&placeholderSize=40`).placeholder;
 
   return (
     <div className="post">
@@ -56,14 +56,14 @@ const Post = ({ post }: Readonly<PostProps>) => {
           {post.delivery ? <Icon.Delivery /> : null}
           {post.pickup ? <Icon.Takeout /> : null}
           {/* {post.masks ? <Icon.Mask /> : null} */}
-          <Icon.Mask />
+          {/* <Icon.Mask /> */}
         </div>
 
         <p>
           {post.content}
           <br />
           {/* {post.masked ? <b>Employees wear masks.</b> : null} */}
-          <b>Employees wear masks.</b>
+          {/* <b>Employees wear masks.</b> */}
         </p>
 
         {post.giftcard || post.number || post.website ? (

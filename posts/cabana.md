@@ -9,4 +9,4 @@ delivery: false
 masks: false
 masked: false
 ---
-2131 St. Joseph Ave., 279-9643 and 3002 S. Belt Highway, 232-8680, drive thru only at St. Joe Ave location and walk up open st S belt location
+2131 St. Joseph Ave., 279-9643 and 3002 S. Belt Highway, 232-8680

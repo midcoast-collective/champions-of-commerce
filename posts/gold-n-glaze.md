@@ -9,4 +9,4 @@ delivery: true
 masks: false
 masked: false
 ---
-Donuts & Coffee, 1825 Frederick Ave., 232-3568, offering curbside carryout, curbside pickup and also delivery with a minimum $20 purchase. Restaurant open to customers as well. Open 7 days a week from 6a-11:30a.m.
+Donuts & Coffee, 1825 Frederick Ave., 232-3568, dine-in, curbside carryout and also delivery with a minimum $20 purchase. Open 7 days a week from 6a-11:30a.m.

@@ -9,4 +9,4 @@ delivery: false
 masks: true
 masked: true
 ---
-Dine-in with social distancing, drive-thru, online ordering, carry out and third-party delivery. Check specials online and on social media.
+Dine-in, drive-thru, online ordering, carry out and third-party delivery. Check specials online and on social media.

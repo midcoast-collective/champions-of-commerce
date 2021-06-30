@@ -9,4 +9,4 @@ delivery: true
 masks: true
 masked: true
 ---
-In-store shopping, shop online, curbside pickup, local delivery and shipping. Max capacity enforced. Sanitizer provided.
+124 N. Eighth St. In-store shopping, shop online, curbside pickup, local delivery and shipping. Max capacity enforced and masks required. Sanitizer provided.

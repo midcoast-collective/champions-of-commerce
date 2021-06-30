@@ -9,4 +9,4 @@ delivery: true
 masks: false
 masked: false
 ---
-3833 Frederick Ave., Call 232-3191 or e-mail bfts2020@gmail.com, salon and shop is open, following guidelines, curbside pickup also available
+3833 Frederick Ave., Call 232-3191 or e-mail bfts2020@gmail.com -- Beauty salon and shop. Walk-ins welcome.

@@ -9,4 +9,4 @@ delivery: false
 masks: false
 masked: true
 ---
-3508 N. Belt Highway, 816-273-5511 Lobby open for carry out, Order online or through Door Dash-Curbside pick-up and catering available.
+3508 N. Belt Highway, 816-273-5511 Order online or through Door Dash-Curbside pick-up and catering available.

@@ -9,4 +9,4 @@ delivery: true
 masks: false
 masked: false
 ---
-3002 Lafayette St., 232-8862 — Monday-Friday 9 a.m. to 3:30 p.m. No contact deliveries by calling ahead
+3002 Lafayette St., 232-8862 — Monday-Friday 9 a.m. to 3:30 p.m.

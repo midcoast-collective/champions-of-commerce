@@ -8,4 +8,4 @@ delivery: false
 masks: false
 masked: true
 ---
-Tuesday and Thursday, 11 a.m. to 2 p.m.; Friday and Saturday, 5 to 9 p.m.. Curbside pickup, orders taken during the previously mentioned hours.
+Closed Sunday. Curbside pickup available, call (816) 232-6719 for more info.

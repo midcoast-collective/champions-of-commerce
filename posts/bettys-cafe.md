@@ -7,6 +7,6 @@ number: 816-238-9847
 pickup: true
 delivery: false
 masks: false
-masked: true
+masked: false
 ---
-Dining room is open. Hours are 5 a.m. to 2 p.m. Call 238-9847 Closed Sundays
+Hours are 5 a.m. to 2 p.m. Call 238-9847 Closed Sundays

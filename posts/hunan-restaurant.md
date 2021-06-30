@@ -6,7 +6,7 @@ website: http://hunanrestaurantsj.net/
 number: 816-232-2535
 pickup: true
 delivery: true
-masks: true
-masked: true
+masks: false
+masked: false
 ---
-409 N. 36th St., 232-2535, Carry out and delivery-Dining room open with limited seating (maximum four to a table)
+409 N. 36th St., 232-2535, Dine-in, carry out and delivery

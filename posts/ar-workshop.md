@@ -9,4 +9,4 @@ delivery: true
 masks: false
 masked: false
 ---
-139 N. Belt Highway, 282-0266 — Open for workshops, To go DIY Kits still available, new options every week
+3855 Frederick Ave., 282-0266 -- DIY workshop and gifts

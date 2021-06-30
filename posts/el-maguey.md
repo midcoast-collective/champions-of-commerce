@@ -9,4 +9,4 @@ delivery: false
 masks: false
 masked: false
 ---
-Dining room is open, parties of 6 or less, very limited seating, carry out and curbside still available, 232-5601 Sun-Th 11a-9p and Fri & Sat 11a-10p
+Dine in, carry out and curbside available, 232-5601 Sun-Th 11a-9p and Fri & Sat 11a-10p

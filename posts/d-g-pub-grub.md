@@ -7,6 +7,6 @@ number: 816-671-1141
 pickup: true
 delivery: true
 masks: false
-masked: true
+masked: false
 ---
-1918 Frederick Ave. Limited dine in. Carry out and delivery available through Door Dash & Grub Hub, 671-1141. Hours: M-Th, 4 to 130 a.m.; Friday & Saturday, 11 a.m. to 1:30 a.m.; Sunday, 11 a.m. to midnight. Only restaurant on Frederick offering service from 930 p.m.-1:30 a.m.nightly.
+1918 Frederick Ave. Dine in, carry out and delivery available through Door Dash & Grub Hub, 671-1141. Hours: M-Th, 4 to 1:30 a.m.; Friday & Saturday, 11 a.m. to 1:30 a.m.; Sunday, 11 a.m. to midnight. Only restaurant on Frederick offering service from 9:30 p.m.-1:30 a.m. nightly.

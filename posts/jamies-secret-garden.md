@@ -6,7 +6,7 @@ website: https://www.jamiessecretgarden.com/
 number: 816-364-3535
 pickup: true
 delivery: false
-masks: true
-masked: true
+masks: false
+masked: false
 ---
-811 N. Woodbine Road, 364-3535, open with some restrictions, also curbside pick up is available. See Facebook for virtual shopping, personal shopping for gifts or call to let staff assist you with decorating your home through photos. Free gift wrap.
+811 N. Woodbine Road, 364-3535. See Facebook for virtual shopping, personal shopping for gifts or call to let staff assist you with decorating your home through photos. Free gift wrap.

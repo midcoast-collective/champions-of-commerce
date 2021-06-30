@@ -9,5 +9,4 @@ delivery: false
 masks: false
 masked: false
 ---
-
-3613 Faraon St. — Taking pre-orders up to midnight the day before that can be picked up from 6 a.m. to 9 a.m. via FB messenger or call and leave us a voicemail at 816-387-8282.
+3613 Faraon St. — open daily except Tuesday from 6 a.m. to 2 p.m. Pre-orders welcome by calling 816-387-8282.

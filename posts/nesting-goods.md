@@ -9,4 +9,4 @@ delivery: true
 masks: true
 masked: true
 ---
-[615 Felix St., open 10 a.m. to 6 p.m., Tuesday-Saturday, locally-made artisan items, home decor and gifts. Shop in person with a mask or online for pickup or delivery,](https://www.nestinggoods.com/)
+615 Felix St., open 10 a.m. to 6 p.m., Tuesday-Saturday, locally-made artisan items, home decor and gifts. Shop in person or online for pickup or delivery,

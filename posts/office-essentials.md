@@ -9,4 +9,4 @@ delivery: false
 masks: true
 masked: false
 ---
-PPE products in stock. Free delivery to your office or home office. Email swilliams@offess.com
+Free delivery to your office or home office. Email swilliams@offess.com

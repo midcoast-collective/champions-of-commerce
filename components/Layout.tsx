@@ -56,7 +56,7 @@ const Layout = ({
         {children}
       </section>
 
-      <section>
+      <div className="wrap">
         <div style={{ visibility: videoIsVisibile ? "visible" : "hidden" }}>
           <YouTube
             containerClassName="video-container"
@@ -64,7 +64,7 @@ const Layout = ({
             onReady={() => setVideoIsVisible(true)}
           />
         </div>
-      </section>
+      </div>
 
       <footer>
         <div className="wrap">

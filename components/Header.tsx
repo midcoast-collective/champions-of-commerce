@@ -1,5 +1,4 @@
 import React from "react";
-import YouTube from "react-youtube";
 
 import * as Icon from "@components/Icon";
 
@@ -9,7 +8,6 @@ type HeaderProps = {
 
 const Header = ({ url = "https://nextjs.org" }: Readonly<HeaderProps>) => {
   const encodedUrl = encodeURIComponent(url);
-  const [videoIsVisibile, setVideoIsVisible] = React.useState(false);
 
   return (
     <header>
@@ -42,20 +40,14 @@ const Header = ({ url = "https://nextjs.org" }: Readonly<HeaderProps>) => {
           </div>
 
           <div className="banner">
-            <h1>Be a Champion of Commerce. Decide local.</h1>
+            <h1>
+              Welcome Chiefs fans! Be a Champion of Commerce. Shop & Dine in St.
+              Joseph!
+            </h1>
             <p>
-              When you shop or dine locally you help friends, neighbors and our
-              community overall. The need to shop local has never been greater.
-              Ditch Amazon and decide local.
+              Check out our listings below of local and national restaurants and
+              local stores and services.
             </p>
-
-            <div style={{ visibility: videoIsVisibile ? "visible" : "hidden" }}>
-              <YouTube
-                containerClassName="video-container"
-                videoId="AogN7XQruZY"
-                onReady={() => setVideoIsVisible(true)}
-              />
-            </div>
           </div>
         </div>
 

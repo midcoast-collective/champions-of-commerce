@@ -1,5 +1,7 @@
 import React from "react";
 import Head from "next/head";
+import YouTube from "react-youtube";
+
 import Header from "@components/Header";
 import * as Icon from "@components/Icon";
 
@@ -16,6 +18,8 @@ const Layout = ({
   description = "Page Description",
   url = "https://nextjs.org",
 }: Readonly<LayoutProps>) => {
+  const [videoIsVisibile, setVideoIsVisible] = React.useState(false);
+
   return (
     <>
       <Head>
@@ -41,9 +45,25 @@ const Layout = ({
       </Head>
 
       <section className="layout">
-        <a className="divert" href="https://saintjoseph.com/champions-gift-certificate-merchants/ ">Have a gift certificate to redeem? Click <u>here</u> to see what businesses accept them.</a>
+        <a
+          className="divert"
+          href="https://saintjoseph.com/champions-gift-certificate-merchants/ "
+        >
+          Have a gift certificate to redeem? Click <u>here</u> to see what
+          businesses accept them.
+        </a>
         <Header url={url} />
         {children}
+      </section>
+
+      <section>
+        <div style={{ visibility: videoIsVisibile ? "visible" : "hidden" }}>
+          <YouTube
+            containerClassName="video-container"
+            videoId="AogN7XQruZY"
+            onReady={() => setVideoIsVisible(true)}
+          />
+        </div>
       </section>
 
       <footer>

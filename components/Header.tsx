@@ -40,14 +40,27 @@ const Header = ({ url = "https://nextjs.org" }: Readonly<HeaderProps>) => {
           </div>
 
           <div className="banner">
-            <h1>
-              Welcome Chiefs fans! Be a Champion of Commerce. Shop & Dine in St.
-              Joseph!
-            </h1>
-            <p>
-              Check out our listings below of local and national restaurants and
-              local stores and services.
-            </p>
+            <div className="wrap">
+              <h1>
+                Welcome Chiefs fans! Be a Champion of Commerce. Shop & Dine in
+                St. Joseph!
+              </h1>
+
+              <img
+                style={{
+                  width: "100%",
+                  height: "auto",
+                  border: "1rem solid white",
+                  borderRadius: "6px",
+                }}
+                src="/images/chiefs.jpg"
+              />
+
+              <p>
+                Check out our listings below of local and national restaurants
+                and local stores and services.
+              </p>
+            </div>
           </div>
         </div>
 

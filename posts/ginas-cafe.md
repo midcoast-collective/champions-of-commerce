@@ -2,7 +2,7 @@
 name: Gina's Cafe
 category: faves
 thumbnail: ginas-cafe.jpg
-website: http://www.ginascafe.net/
+website: https://www.ginascafeandcatering.com/
 number: 816-378-2475
 pickup: true
 delivery: false

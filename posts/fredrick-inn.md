@@ -1,5 +1,5 @@
 ---
-name: Fredrick Inn
+name: Fredrick Inn & Steakhouse
 category: faves
 thumbnail: fredrick-inn.jpg
 website: https://www.fredrickinnsteakhouse.com/

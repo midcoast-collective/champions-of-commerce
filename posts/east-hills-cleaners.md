@@ -4,8 +4,8 @@ category: service
 thumbnail: east-hills-cleaners.jpg
 website: https://www.easthillscleaners.com/
 number: 816-364-6141
-pickup: true
-delivery: false
+pickup: false
+delivery: true
 masks: false
 masked: false
 ---

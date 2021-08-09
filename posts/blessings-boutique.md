@@ -1,7 +1,7 @@
 ---
 name: Blessings Boutique
 category: retail
-thumbnail: blessings-boutique.jpg
+thumbnail: blessings2.jpg
 website: https://www.facebook.com/bessingsboutique.net/
 number: 816-248-9648
 pickup: false

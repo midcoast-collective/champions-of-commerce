@@ -45,13 +45,13 @@ const Layout = ({
       </Head>
 
       <section className="layout">
-        <a
+        {/* <a
           className="divert"
           href="https://saintjoseph.com/champions-gift-certificate-merchants/ "
         >
           Have a gift certificate to redeem? Click <u>here</u> to see what
           businesses accept them.
-        </a>
+        </a> */}
         <Header url={url} />
         {children}
       </section>

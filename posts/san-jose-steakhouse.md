@@ -1,6 +1,6 @@
 ---
 name: San Jose Steakhouse
-category: craves
+category: faves
 thumbnail: san-jose-steakhouse.jpg
 website: https://www.facebook.com/San-Jose-Steakhouse-Mexican-Grill-103227966394439/
 number: 816-279-1175

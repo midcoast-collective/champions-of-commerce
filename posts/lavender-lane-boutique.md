@@ -9,4 +9,4 @@ delivery: false
 masks: true
 masked: true
 ---
-Open, curbside pickup and shipping also available, 2115 N Belt Hwy. Suite A, (816) 364-5134
+Open, curbside pickup and shipping also available, 2335 N. Belt Highway, Suite D (Cobb’s Corner), (816) 364-5134

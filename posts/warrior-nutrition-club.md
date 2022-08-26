@@ -1,5 +1,5 @@
 ---
-name: Warrior Nutrition Club
+name: Show Me Nutrition
 category: retail
 thumbnail: warrior-nutrition-club.jpg
 website: https://www.facebook.com/Warrior-Nutrition-238856953685012/

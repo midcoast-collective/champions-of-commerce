@@ -61,14 +61,6 @@ const Header = ({ url = "https://nextjs.org" }: Readonly<HeaderProps>) => {
               Check out our listings below of local and national restaurants and
               local stores and services.
             </p>
-
-            <div style={{ visibility: videoIsVisibile ? "visible" : "hidden" }}>
-              <YouTube
-                containerClassName="video-container"
-                videoId="AogN7XQruZY"
-                onReady={() => setVideoIsVisible(true)}
-              />
-            </div>
           </div>
         </div>
 

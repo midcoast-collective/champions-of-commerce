@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import YouTube from "react-youtube";
 
 import Header from "@components/Header";
 import * as Icon from "@components/Icon";
@@ -54,6 +55,16 @@ const Layout = ({
         <Header url={url} />
         {children}
       </section>
+
+      <div className="wrap">
+        <div style={{ visibility: videoIsVisibile ? "visible" : "hidden" }}>
+          <YouTube
+            containerClassName="video-container"
+            videoId="AogN7XQruZY"
+            onReady={() => setVideoIsVisible(true)}
+          />
+        </div>
+      </div>
 
       <footer>
         <div className="wrap">

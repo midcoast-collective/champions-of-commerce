@@ -42,11 +42,24 @@ const Header = ({ url = "https://nextjs.org" }: Readonly<HeaderProps>) => {
           </div>
 
           <div className="banner">
-            <h1>Be a Champion of Commerce. Decide local.</h1>
+            <h1>
+              Welcome Chiefs fans! Be a Champion of Commerce. Shop & Dine in St.
+              Joseph!
+            </h1>
+
+            <img
+              style={{
+                width: "100%",
+                height: "auto",
+                border: "1rem solid white",
+                borderRadius: "6px",
+              }}
+              src="/images/chiefs.jpg"
+            />
+
             <p>
-              When you shop or dine locally you help friends, neighbors and our
-              community overall. The need to shop local has never been greater.
-              Ditch Amazon and decide local.
+              Check out our listings below of local and national restaurants and
+              local stores and services.
             </p>
 
             <div style={{ visibility: videoIsVisibile ? "visible" : "hidden" }}>

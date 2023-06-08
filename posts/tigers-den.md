@@ -1,5 +1,5 @@
 ---
-name: Tiger's Den
+name: The Den
 category: faves
 thumbnail: tigers-den.jpg
 website: https://www.facebook.com/thetigersdenstjoe/

@@ -9,4 +9,4 @@ delivery: false
 masks: true
 masked: false
 ---
-In front of Hy-Vee, Wed-Sat 10:30 a.m. to 6:30 p.m. or until sell out
+Check Facebook for locations.

@@ -9,4 +9,4 @@ delivery: false
 masks: false
 masked: false
 ---
-(816) 279-9484; M-F, 1 p.m. to 1:30 a.m.; Saturday noon to 1:30 a.m.; Sunday, 11 a.m. to midnight
+(816) 279-9484; M-F, 1 p.m. to 1:30 a.m.; Saturday noon to 1:30 a.m.; Sunday, 11 a.m. to midnight. 3229 Mitchell Ave.

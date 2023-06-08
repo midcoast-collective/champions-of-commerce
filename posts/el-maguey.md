@@ -9,4 +9,4 @@ delivery: false
 masks: false
 masked: false
 ---
-Dine in, carry out and curbside available, 232-5601 Sun-Th 11a-9p and Fri & Sat 11a-10p
+Dine in, carry out, 232-5601 - 4225 Commonwealth Court and 2201 N. Belt Highway

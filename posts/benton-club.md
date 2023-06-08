@@ -8,4 +8,4 @@ delivery: false
 masks: false
 masked: true
 ---
-Closed Sunday. Curbside pickup available, call (816) 232-6719 for more info.
+402 N. Seventh St. Tuesday-Thursday, open at 11 a.m.; Wednesday & Saturday, open at 5 p.m. By reservation only. Private club.

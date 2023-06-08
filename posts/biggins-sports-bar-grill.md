@@ -10,4 +10,4 @@ delivery: true
 masks: false
 masked: false
 ---
-Tuesday-Saturday 10a-12a (ish)
+Tuesday-Saturday 10a-12a (ish). 408 Hickory St.

@@ -1,8 +1,8 @@
 ---
 name: The Den
 category: faves
-thumbnail: tigers-den.jpg
-website: https://www.facebook.com/thetigersdenstjoe/
+thumbnail: bartender.jpg
+website: https://www.thedenstjoe.com/
 number: 816-617-2108
 pickup: false
 delivery: true

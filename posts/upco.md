@@ -4,7 +4,7 @@ category: retail
 thumbnail: upco.jpg
 website: https://upco.com/
 giftcard: https://upco.com/?s=gift+card
-pickup: true
+pickup: false
 delivery: true
 masks: false
 masked: false

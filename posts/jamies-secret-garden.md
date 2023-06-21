@@ -4,7 +4,7 @@ category: retail
 thumbnail: jamies-secret-garden.jpg
 website: https://www.jamiessecretgarden.com/
 number: 816-364-3535
-pickup: true
+pickup: false
 delivery: false
 masks: false
 masked: false

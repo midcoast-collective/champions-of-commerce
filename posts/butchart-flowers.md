@@ -5,7 +5,7 @@ thumbnail: butchart-flowers.jpg
 website: https://www.butchartflowers.com/
 number: 816-279-2735
 pickup: false
-delivery: false
+delivery: true
 masks: true
 masked: true
 ---

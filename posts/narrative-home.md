@@ -3,7 +3,7 @@ name: Narrative Home
 category: retail
 thumbnail: narrative.jpg
 website: https://www.facebook.com/profile.php?id=100088256382911
-pickup: true
+pickup: false
 delivery: false
 masks: false
 masked: false

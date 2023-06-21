@@ -4,7 +4,7 @@ category: retail
 thumbnail: lifestyle-boutique.jpg
 website: https://www.lifeandstyleboutique.com/
 number: 816-232-8862
-pickup: true
+pickup: false
 delivery: true
 masks: false
 masked: false

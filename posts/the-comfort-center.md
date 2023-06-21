@@ -4,8 +4,8 @@ category: retail
 thumbnail: the-comfort-center.jpg
 website: https://www.thecomfortcenter.com/
 number: (816) 279-1511
-pickup: true
-delivery: true
+pickup: false
+delivery: false
 masks: false
 masked: false
 ---

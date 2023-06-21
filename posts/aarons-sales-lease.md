@@ -3,7 +3,7 @@ name: Aaron's Sales & Lease
 category: retail
 thumbnail: aarons.jpg
 website: https://locations.aarons.com/us/mo/saint-joseph/1902-s-belt-hwy
-pickup: true
+pickup: false
 delivery: true
 masks: false
 masked: true

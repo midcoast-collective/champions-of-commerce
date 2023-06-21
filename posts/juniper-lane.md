@@ -4,7 +4,7 @@ category: retail
 thumbnail: juniper.jpg
 website: https://juniperlanehome.square.site/
 giftcard: https://squareup.com/gift/ML8J9RENVBEZP/order
-pickup: true
+pickup: false
 delivery: false
 masks: false
 masked: false

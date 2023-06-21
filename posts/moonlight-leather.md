@@ -4,9 +4,9 @@ category: retail
 thumbnail: moonlight-leather.jpg
 website: https://www.facebook.com/nancybgoode/
 number: 816-385-2534
-pickup: true
+pickup: false
 delivery: false
-masks: true
-masked: true
+masks: false
+masked: false
 ---
 Open by appointment, Monday-Saturday, 10 a.m. to 2 p.m. 816-385-2534, 112 S. Eighth St.

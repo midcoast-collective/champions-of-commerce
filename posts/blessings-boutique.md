@@ -9,4 +9,4 @@ delivery: false
 masks: false
 masked: false
 ---
-3827 Frederick Ave. 248-9648 Open Wed-Fri 12 p.m. to 6 p.m./Sat 10 a.m. to 3 p.m. Check Facebook group for a sale every Tuesday night
+3827 Frederick Ave. 248-9648 Open Wed-Fri 12 p.m. to 6 p.m./Sat 10 a.m. to 3 p.m. We invite you to stop by our 4,000 square foot shop which caters to women sizes S-3x and children.

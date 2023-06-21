@@ -4,7 +4,7 @@ category: retail
 thumbnail: moffet-nurseries.jpg
 website: https://www.facebook.com/Moffet-Nursery-Garden-Shop-155662641158249/
 number: 816-233-1223
-pickup: true
+pickup: false
 delivery: false
 masks: false
 masked: false

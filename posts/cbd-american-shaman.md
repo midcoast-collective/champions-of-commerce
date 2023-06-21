@@ -4,7 +4,7 @@ category: retail
 thumbnail: cbd-american-shaman.jpg
 website: https://cbdamericanshaman.com/
 number: 816-390-8707
-pickup: true
+pickup: false
 delivery: true
 masks: false
 masked: false

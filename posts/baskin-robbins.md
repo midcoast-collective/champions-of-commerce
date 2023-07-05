@@ -1,13 +1,13 @@
 ---
-name: Baskin Robbins
+name: Baskin-Robbins
 category: craves
-thumbnail: baskin-robbins.jpg
-website: https://www.baskinrobbins.com/
+thumbnail: picture.jpeg
+website: https://www.baskinrobbinsstjoe.com/
 giftcard: https://www.baskinrobbins.com/en/gift-cards
 pickup: true
 delivery: true
 masks: false
-masked: true
+masked: false
 ---
 
 2301 N. Belt Highway, 232-3100, lobby open, drive-thru, carry out and online dessert ordering. Door Dash.

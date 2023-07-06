@@ -29,10 +29,10 @@ const PostList = ({ posts = [] }: Readonly<PostListProps>) => {
           <Icon.Takeout />
           <span>- Takeout</span>
         </div>
-        {/* <div>
-          <Icon.Mask />
-          <span>- Masks</span>
-        </div> */}
+        <div>
+          <Icon.Member />
+          <span>- Chamber Member</span>
+        </div>
       </div>
 
       <div className="tabs">
@@ -58,7 +58,7 @@ const PostList = ({ posts = [] }: Readonly<PostListProps>) => {
           className={filter === "service" ? "tab active" : "tab"}
           onClick={() => setFilter("service")}
         >
-          Services
+          Activities & Services
         </button>
       </div>
 

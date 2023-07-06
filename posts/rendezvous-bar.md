@@ -8,4 +8,4 @@ delivery: false
 masks: false
 masked: false
 ---
-D﻿owntown bar with live music offerings. Located at 619 Felix St.
+D﻿owntown bar with live music offerings. Located at 619 Felix St. 816-351-1456

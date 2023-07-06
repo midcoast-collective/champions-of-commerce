@@ -1,7 +1,8 @@
 ---
 name: Rendezvous Bar
 category: faves
-thumbnail: bar.jpg
+thumbnail: rende.jpg
+website: https://www.facebook.com/RendezvousBarFelix?mibextid=LQQJ4d
 pickup: false
 delivery: false
 masks: false

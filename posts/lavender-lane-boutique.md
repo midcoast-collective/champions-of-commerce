@@ -7,6 +7,6 @@ number: (816) 364-5134
 pickup: false
 delivery: false
 masks: true
-masked: true
+masked: false
 ---
 Open, curbside pickup and shipping also available, 2335 N. Belt Highway, Suite D (Cobb’s Corner), (816) 364-5134

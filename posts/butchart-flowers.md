@@ -7,7 +7,7 @@ number: 816-279-2735
 pickup: false
 delivery: true
 masks: true
-masked: true
+masked: false
 ---
 
 Open, walk-ins welcome/curbside pick-up and no contact delivery available, 279-2735

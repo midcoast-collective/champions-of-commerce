@@ -6,7 +6,7 @@ website: https://www.baskinrobbinsstjoe.com/
 giftcard: https://www.baskinrobbins.com/en/gift-cards
 pickup: true
 delivery: true
-masks: false
+masks: true
 masked: false
 ---
 

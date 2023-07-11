@@ -5,7 +5,7 @@ thumbnail: top-notch.png
 website: https://www.topnotchroofingsolutionsllc.com/
 pickup: false
 delivery: false
-masks: false
+masks: true
 masked: false
 ---
 Top Notch Roofing Solutions

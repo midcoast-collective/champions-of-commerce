@@ -5,7 +5,7 @@ thumbnail: subway.jpg
 website: https://www.facebook.com/subway/
 giftcard: https://www.subway.com/en-US/SubwayCard
 pickup: true
-delivery: false
+delivery: true
 masks: true
 masked: false
 ---

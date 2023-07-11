@@ -6,7 +6,7 @@ website: https://www.ginascafeandcatering.com/
 number: 816-378-2475
 pickup: true
 delivery: false
-masks: false
-masked: true
+masks: true
+masked: false
 ---
 (816) 378-2475, 674 Main St., Cosby, curbside to go and meal kits available. Call before coming and to order meal kits.

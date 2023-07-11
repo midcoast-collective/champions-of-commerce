@@ -6,7 +6,7 @@ website: https://www.facebook.com/Adams-Bar-Grill-156500586392/
 number: 816-232-5513
 pickup: true
 delivery: false
-masks: false
+masks: true
 masked: false
 ---
 

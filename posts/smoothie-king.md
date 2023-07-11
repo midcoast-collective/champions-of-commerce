@@ -7,6 +7,6 @@ number: 816-273-5511
 pickup: true
 delivery: false
 masks: false
-masked: true
+masked: false
 ---
 3508 N. Belt Highway, 816-273-5511 Order online or through Door Dash-Curbside pick-up and catering available.

@@ -6,7 +6,7 @@ website: http://longboardswrapsandbowls.com/
 number: 816-866-3840
 pickup: true
 delivery: true
-masks: false
+masks: true
 masked: false
 ---
 106 S. 7th St. Call (816) 866-3840 for curbside pick up. Order online or at Door Dash/GrubHub

@@ -6,7 +6,7 @@ website: https://www.lifeandstyleboutique.com/
 number: 816-232-8862
 pickup: false
 delivery: true
-masks: false
+masks: true
 masked: false
 ---
 3002 Lafayette St., 232-8862 — Monday-Friday 9 a.m. to 3:30 p.m.

@@ -6,6 +6,6 @@ website: https://rhcl.org/new-services
 pickup: false
 delivery: false
 masks: true
-masked: true
+masked: false
 ---
 Rolling Hills Library is open, regular hours, 7-days a week and includes curbside pickup. Go to https://rhcl.org for more info.

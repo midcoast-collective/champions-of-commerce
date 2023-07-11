@@ -7,6 +7,6 @@ number: 816-974-7656
 pickup: false
 delivery: false
 masks: true
-masked: true
+masked: false
 ---
 St. Joseph Arts Academy offers music and art offers music and art classes in person and online. Visit its website to learn more.

@@ -6,7 +6,7 @@ website: https://www.facebook.com/munyinnbar/
 number: (816) 279-9484
 pickup: true
 delivery: false
-masks: false
+masks: true
 masked: false
 ---
 (816) 279-9484; M-F, 1 p.m. to 1:30 a.m.; Saturday noon to 1:30 a.m.; Sunday, 11 a.m. to midnight. 3229 Mitchell Ave.

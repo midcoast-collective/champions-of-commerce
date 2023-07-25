@@ -1,7 +1,7 @@
 ---
 name: Pronto Cafe
 category: faves
-thumbnail: pronto-cafe.jpg
+thumbnail: pronto_logo-good-logo.jpg
 website: https://www.facebook.com/prontocafe2513/
 number: (816) 671-9937
 pickup: true
@@ -9,4 +9,4 @@ delivery: false
 masks: true
 masked: false
 ---
-Drive thru open 7 a.m. to 2 p.m., M-F, 9 to 2 on Saturday; restaurant hours, 8-2, Monday-Friday and 9-2 on Saturdays. Catering also offered. 2513 Frederick Ave. Another location available inside the East Hills Shopping Center
+Pronto is located at 2513 Frederick Ave. and is open Monday-Friday from 7 a.m. to 2 p.m. and Saturday from 8 a.m. to noon. It serves breakfast, lunch, baked goods and coffee drinks. Ask staff about catering. Contact them at 816-671-9937.

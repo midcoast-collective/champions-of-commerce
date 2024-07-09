@@ -1,6 +1,6 @@
 ---
 name: AR Workshop
-category: retail
+category: service
 thumbnail: ar-workshop.jpg
 website: https://www.arworkshop.com/stjoseph/#schedule
 giftcard: https://www.arworkshop.com/event/?buygiftcard=1&loc=stjoseph

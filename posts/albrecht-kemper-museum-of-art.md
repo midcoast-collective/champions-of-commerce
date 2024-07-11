@@ -1,7 +1,7 @@
 ---
 name: Albrecht-Kemper Museum of Art
 category: service
-thumbnail: akma-logo-colored-2048x545.png
+thumbnail: albrecht.png
 website: https://albrecht-kemper.org/
 pickup: false
 delivery: false

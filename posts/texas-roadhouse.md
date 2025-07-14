@@ -6,7 +6,7 @@ website: https://www.texasroadhouse.com/locations/missouri/st-joseph
 number: 816-676-2333
 pickup: true
 delivery: false
-masks: false
+masks: true
 masked: false
 ---
 Dining room open, curbside pickup, place order online or call 676-2333, 925 N. Belt Highway, Monday-Sunday, 3 p.m. to 8:30 p.m.

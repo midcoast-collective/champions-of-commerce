@@ -1,6 +1,6 @@
 ---
 name: The Hive Coffee & Cafe
-category: craves
+category: faves
 thumbnail: the-hive-1-1-logo.png
 website: https://www.facebook.com/profile.php?id=100089355492367
 pickup: false
